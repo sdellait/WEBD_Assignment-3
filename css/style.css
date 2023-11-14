@@ -1,0 +1,122 @@
+/*By Sam D for WEBD1000, November 2023*/
+header{
+}
+body {
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    align-items: centre;
+    justify-content: centre;
+    background-color: rgb(255,255,255);
+}
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        display: block;
+        flex-grow: 1;
+        text-align:left;
+    }
+}
+
+.linkA {
+color: rgb(2, 125, 218);
+font-size: small;
+text-decoration: none;
+margin-bottom: auto;
+}
+.linkB {
+color: rgb(2, 125, 218);
+text-decoration: none;
+margin-bottom: auto;
+}
+.linkC {
+color: rgb(2, 125, 218);
+font-size: small;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+p {
+font-size: large;
+}
+p2 {
+font-size: small;
+}
+h3{
+    font-size:xx-large;
+    margin-bottom: auto;
+}
+p3{
+    font-size: medium;
+    font-weight:550;
+    margin-bottom: auto;
+}
+
+
+nav {
+    background-color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+nav a {
+    display: inline-block;
+    padding: 8px 30px;
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+.logo {
+    max-height:24px;
+}
+.logoB {
+    max-height: 36px;
+}
+
+.hero-banner {
+    height: 420px;
+    background-color: rgb(255,255,255);
+    color: 000;
+    text-align: center;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+.hero-banner img{
+    max-width:380px;
+    justify-content: centre;
+    align-items: centre;
+    justify-content: center;
+    margin:5px
+}
+.hero-banner h1 {
+    /*font-size: 2.5em;*/
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.hero-banner-2 {
+    height: 491px;
+    background-color: #000;
+    color: rgb(255,255,255);
+    align-content: center;
+    justify-content: center;
+    overflow:hidden;
+}    
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 60%);
+    grid-template-rows: repeat(2, 330px);
+    gap: 8px 16px;
+    max-width: 80%;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.grid-item {
+    background-color: rgb(255,248,248);
+    padding: 10px 5px;
+    text-align: center;
+    text-wrap:nowrap;
+}
