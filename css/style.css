@@ -23,16 +23,38 @@ font-size: small;
 text-decoration: none;
 margin-bottom: auto;
 }
+.linkA:active{
+    font-style: italic;
+    color: lightblue;
+}
+.linkA:hover{
+    font-weight: bolder;
+}
+
 .linkB {
 color: rgb(2, 125, 218);
 text-decoration: none;
 margin-bottom: auto;
+}
+.linkB:active{
+    font-style: italic;
+    color: lightblue;
+}
+.linkB:hover{
+    font-weight: bolder;
 }
 .linkC {
 color: rgb(2, 125, 218);
 font-size: small;
 text-decoration: none;
 margin-bottom: 10px;
+}
+.linkC:active{
+    font-style: italic;
+    color: lightblue;
+}
+.linkC:hover{
+    font-weight: bolder;
 }
 
 p {
