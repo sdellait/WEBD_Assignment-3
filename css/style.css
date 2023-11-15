@@ -24,11 +24,10 @@ text-decoration: none;
 margin-bottom: auto;
 }
 .linkA:active{
-    font-style: italic;
     color: lightblue;
 }
 .linkA:hover{
-    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .linkB {
@@ -37,11 +36,10 @@ text-decoration: none;
 margin-bottom: auto;
 }
 .linkB:active{
-    font-style: italic;
     color: lightblue;
 }
 .linkB:hover{
-    font-weight: bolder;
+    text-decoration: underline;
 }
 .linkC {
 color: rgb(2, 125, 218);
@@ -50,11 +48,10 @@ text-decoration: none;
 margin-bottom: 10px;
 }
 .linkC:active{
-    font-style: italic;
     color: lightblue;
 }
 .linkC:hover{
-    font-weight: bolder;
+    text-decoration: underline;
 }
 
 p {
@@ -88,6 +85,11 @@ nav a {
 nav a:hover {
     background-color: rgb(255,255,255);
     color: black;
+}
+nav a:active {
+    background-color: #333;
+    color: rgb(179, 179, 179);
+    font-weight: 600;
 }
 
 .logo {
